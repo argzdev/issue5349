@@ -4,6 +4,10 @@
 
 ### Summary
 - google-services:4.4.0 is incompatible with appdistribution:4.0.0
+
+### Prerequisite:
+- add a credential file
+
 ### Steps to reproduce
 - Open app
 - Use version `com.google.gms.google-services:4.4.0`
