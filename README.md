@@ -15,6 +15,6 @@ Since App distribution uses cached Firebase CLI credentials.
 ### Incorrect scenario
 - Use version `com.google.gms.google-services:4.3.15`
 - Use `export GOOGLE_APPLICATION_CREDENTIALS=....` in terminal
-- Run gradle `app:assembleDebug app:appDistributionUploadDebug` (works)
+- Run `gradle app:assembleDebug app:appDistributionUploadDebug` (works)
 - Update to version `com.google.gms.google-services:4.4.0`
 - Run `gradle app:assembleDebug app:appDistributionUploadDebug` (works, because of the cached credential)
